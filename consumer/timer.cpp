@@ -2,6 +2,7 @@
 #include <Poco/Thread.h>
 #include <Poco/Stopwatch.h>
 #include <boost/regex.hpp>
+#include "hello.h"
 
 #include <string>
 #include <iostream>
@@ -34,5 +35,7 @@ int main(int argc, char** argv){
     std::cout << std::boolalpha << boost::regex_match(s, expr) << '\n';
     std::cout << std::boolalpha << boost::regex_match(s2, expr) << '\n';
 
+    hello();
+    
     return 0;
 }
