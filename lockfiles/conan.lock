@@ -1,0 +1,21 @@
+{
+ "profile_host": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++11\ncompiler.version=6\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "version": "0.3",
+ "graph_lock": {
+  "nodes": {
+   "0": {
+    "requires": [
+     "1"
+    ],
+    "path": "/home/conan/conan-training/lockfiles/chat/conanfile.py",
+    "options": "shared=False\nhello:shared=False",
+    "pref": "chat/0.1@user/testing#99b66169d7fb6882f4318586bb7d1c7a:fac31e6ebc8975d46f9330c80446d38cb62508aa#2d213469cbf17eb9d513ec6fdd8b37f0",
+    "modified": "built"
+   },
+   "1": {
+    "options": "shared=False",
+    "pref": "hello/0.1@user/testing#ef9a20bb5f8df93b05f548bdb9e2c87b:57547fe65fffc300f05aa42ee64b3b02eeabb6d7#0ae3e4a55a8d7b4573fcb3bd721192e1"
+   }
+  }
+ }
+}
