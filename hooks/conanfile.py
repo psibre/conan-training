@@ -1,13 +1,13 @@
 from conans import ConanFile, CMake
 
 
-class HellopkgConan(ConanFile):
-    name = "hello-pkg"
+class HelloConan(ConanFile):
+    name = "hello"
     version = "0.1"
     license = "<Put the package license here>"
     author = "<Put your name here> <And your email here>"
     url = "<Package recipe repository url here, for issues about the package>"
-    description = "<Description of Hellopkg here>"
+    description = "<Description of Hello here>"
     topics = ("<Put some tag here>", "<here>", "<and here>")
     settings = "os", "compiler", "build_type", "arch"
     options = {"shared": [True, False]}
